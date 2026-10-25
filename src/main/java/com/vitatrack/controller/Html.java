@@ -16,8 +16,11 @@ public class Html {
         <head>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width,initial-scale=1">
+          <meta name="theme-color" content="#1a73e8">
           <title>%s — VitaTrack</title>
           <link rel="manifest" href="/assets/manifest.json">
+          <link rel="apple-touch-icon" href="/assets/icons/icon-180.png">
+          <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
           <link rel="stylesheet" href="/assets/css/style.css">
         </head>
         <body>
@@ -47,7 +50,11 @@ public class Html {
         <head>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width,initial-scale=1">
+          <meta name="theme-color" content="#1a73e8">
           <title>Connexion — VitaTrack</title>
+          <link rel="manifest" href="/assets/manifest.json">
+          <link rel="apple-touch-icon" href="/assets/icons/icon-180.png">
+          <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
           <link rel="stylesheet" href="/assets/css/style.css">
         </head>
         <body class="login-body">
@@ -67,6 +74,7 @@ public class Html {
               <button type="submit" class="btn btn-primary btn-block">Se connecter</button>
             </form>
           </div>
+          <script src="/assets/js/app.js"></script>
         </body>
         </html>
         """.formatted(err);
